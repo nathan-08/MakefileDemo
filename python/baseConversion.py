@@ -1,4 +1,4 @@
-''' decToOct '''
+''' base conversion algorithm '''
 import sys
 def f(n: int, base: int) -> str:
 
