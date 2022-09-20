@@ -12,10 +12,12 @@ thing.o: thing.cpp thing.h
 	@echo "-- thing.o"
 	$(GCC) -c thing.cpp
 
+.PHONY: clean
 clean:
 	@echo "-- clean"
 	rm -f main main.o thing.o
 
+.PHONY: run
 run: main
 	@echo "-- run"
 	./main
